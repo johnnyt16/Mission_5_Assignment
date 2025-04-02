@@ -1,8 +1,43 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Guitar Passion";
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">My Guitar Journey</h1>
+    <p class="lead">Welcome to my guitar hobby page! Here I share my passion for music and six strings.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-6">
+        <img src="~/FE3491FE-4767-4FFB-B7FF-EFC924536A19.jpg" alt="Electric Guitar" class="img-fluid rounded mb-3" />
+        <p>
+            My journey with guitar started in college when I picked up an old acoustic from a friend. 
+            What began as a casual interest quickly turned into a passionate hobby. I spend hours learning 
+            new techniques, practicing scales, and trying to master my favorite songs.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <img src="~/PIC-7157.jpeg" alt="Acoustic Guitar" class="img-fluid rounded mb-3" />
+        <p>
+            I love exploring different music styles on guitar - from blues and rock to classical and jazz.
+            Each style presents its own challenges and rewards. The guitar is such a versatile instrument
+            that allows for endless exploration and creativity.
+        </p>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <div class="col-12">
+        <h2>Why I Love Guitar</h2>
+        <p>
+            Guitar has become more than just a hobby - it's a way to express myself and connect with others.
+            There's something magical about creating music that can touch people's emotions. Whether I'm practicing
+            alone in my room or jamming with friends, playing guitar brings me joy and peace.
+        </p>
+        <p>
+            If you're interested in learning guitar too, I offer beginner lessons to share my passion for
+            this amazing instrument. Check out my <a asp-controller="Home" asp-action="Calculator">lesson calculator</a>
+            to see how affordable it can be to start your own guitar journey!
+        </p>
+    </div>
 </div>
